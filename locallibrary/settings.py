@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 's--o)84nct1aul!s+%m7h^)1m+o++3
 #DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [".herokuapp.com", "https://hidden-anchorage-14550.herokuapp.com/"]
 
 
 # Application definition
